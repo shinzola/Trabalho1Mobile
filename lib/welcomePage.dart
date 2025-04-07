@@ -146,7 +146,7 @@ class welcomePage extends StatelessWidget {
                 );
               },
               style: ButtonStyle(
-                backgroundColor: WidgetStateProperty.all<Color>(Colors.Amber),
+                backgroundColor: WidgetStateProperty.all<Color>(Colors.amber),
                 fixedSize: WidgetStateProperty.all(Size(350, 40)),
               ),
               child: Text(
